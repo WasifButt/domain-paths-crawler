@@ -2,6 +2,8 @@
 
 A simple Django web crawler to discover and record paths under a domain.  
 
+https://github.com/user-attachments/assets/fa9cdbc0-20e5-4fa7-9984-e733961379c1
+
 ---
 
 ## Table of Contents
