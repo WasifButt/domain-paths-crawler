@@ -13,6 +13,7 @@ https://github.com/user-attachments/assets/fa9cdbc0-20e5-4fa7-9984-e733961379c1
   - [Prerequisites](#prerequisites)  
   - [Installation](#installation)  
   - [Running](#running)
+  - [Testing](#testing)
 
 ---
 
@@ -61,4 +62,10 @@ celery -A webcrawler worker --loglevel=info
 python manage.py runserver
 ```
 The app can then be accessed from http://127.0.0.1:8000/
+
+### Testing
+
+```bash
+python manage.py test
+```
 
