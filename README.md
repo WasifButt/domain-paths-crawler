@@ -47,6 +47,7 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+brew install rabbitmq
 ```
 
 ### Running
@@ -56,6 +57,7 @@ python manage.py makemigrations
 python manage.py migrate
 
 # From a different shell begin the celery worker
+brew services start rabbitmq
 celery -A webcrawler worker --loglevel=info
 
 # Run the django server
